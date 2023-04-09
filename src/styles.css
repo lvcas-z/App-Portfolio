@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
 *{
   margin: 0;
-  padding: 0;
+  box-sizing: border-box;
   font-family:'Rubik', sans-serif;
   color:#F1F6F8;
   font-weight: 400;
   list-style: none;
   text-decoration: none;
-  padding: 5px;
 }
 body{
-  background: rgb(2,0,36);
+  background-color:#1d2026 ;
+  /* background: rgb(2,0,36);
   background: linear-gradient(180deg, rgba(0,0,0,1) 30%, rgba(9,9,121,1) 98%);  background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
