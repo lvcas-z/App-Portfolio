@@ -1,0 +1,26 @@
+.contact-form-ctn{
+    text-align: justify;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.contact-form-text{
+    display: flex;
+    align-items: center;
+    width: 20rem;
+}
+.form-ctn{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 2rem;
+    justify-content: right;
+}
+input{
+    width: 25rem;
+    height: 3rem;
+    border: 1px solid aquamarine;
+    border-radius: 10px;
+    background: inherit;
+}

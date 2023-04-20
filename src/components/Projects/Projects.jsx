@@ -3,7 +3,7 @@ import ProjectItem from './ProjectItem/ProjectItem'
 const Projects = () => {
     return (
         <>
-            <h2>Proyectos</h2>
+            <h3>Proyectos</h3>
                 <ProjectItem/>
         </>
     )
