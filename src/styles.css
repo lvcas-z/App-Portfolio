@@ -9,8 +9,10 @@
   text-decoration: none;
 }
 body{
-  background-color:#0f1114 ;
-  /* background: rgb(2,0,36);
-  background: linear-gradient(180deg, rgba(0,0,0,1) 30%, rgba(9,9,121,1) 98%);  background-repeat: no-repeat;
-  background-size: cover; */
+  background-color: #0f2027;
+}
+h2{
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
 }
