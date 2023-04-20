@@ -9,10 +9,8 @@ return (
             <div className='about-img-ctn'>
                 <img src={codingImg} alt=""/>
             </div>
-            <div className='info-ctn'>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda iste, doloremque alias maxime earum explicabo in voluptatibus quasi, corporis facere incidunt! Cupiditate minus, magnam animi in illo nisi vel facilis?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda iste, doloremque alias maxime earum explicabo in voluptatibus quasi, corporis facere incidunt! Cupiditate minus, magnam animi in illo nisi vel facilis?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda iste, doloremque alias maxime earum explicabo in voluptatibus quasi, corporis facere incidunt! Cupiditate minus, magnam animi in illo nisi vel facilis?</p>
+            <div className='about-info-ctn'>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut ullam atque corrupti hic soluta nihil suscipit. Aperiam optio esse provident at labore, sit suscipit veniam modi, molestias reiciendis expedita rerum.</p>
                 </div>
         </div>
     </>

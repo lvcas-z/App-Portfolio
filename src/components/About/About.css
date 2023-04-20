@@ -5,14 +5,20 @@
     align-items: center;
     gap: 3rem;
 }
+.about-img-ctn{
+    display: flex;
+    justify-content: center;
+}
 .about-img-ctn img{
-    width: 75%;
+    width: 20rem;
 }
-.info-ctn{
+.about-info-ctn{
     width: 40%;
-}
-h2{
+    padding: 1rem;
     text-align: center;
-    font-weight: 700;
-    font-size: 2rem;
+}
+@media (max-width:768px){
+    .about-ctn{
+        flex-direction: column;
+    }
 }
