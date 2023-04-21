@@ -20,7 +20,7 @@
 input{
     width: 25rem;
     height: 3rem;
-    border: 1px solid aquamarine;
+    border: 1px solid #14FFEC;
     border-radius: 10px;
     background: inherit;
 }
