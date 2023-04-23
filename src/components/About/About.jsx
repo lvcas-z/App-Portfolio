@@ -3,7 +3,7 @@ import codingImg from '../../assets/coding.png'
 import './About.css'
 const About = () => {
 return (
-    <div className='about-ctn'>
+    <div className='about-ctn' id='about'>
         <h3>Sobre mi</h3>
         <div className='about-me-ctn'>
             <div className='about-img-ctn'>

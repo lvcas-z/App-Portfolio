@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react'
+import React,{useState} from 'react'
 import './Navbar.css'
 const Navbar = () => {
 
@@ -15,10 +15,10 @@ const Navbar = () => {
         <div className={`navbar ${isOpen ? "open" : ""}`}>
             <span onClick={toggleVisibility} className='close-menu'>X</span>
             <ul className='nav-links'>
-                <li className='nav-item'>Inicio</li>
-                <li className='nav-item'>Sobre Mi</li>
-                <li className='nav-item'>Proyectos</li>
-                <li className='nav-item'>Contacto</li>
+                <li className='nav-item'><a href="#">Inicio</a></li>
+                <li className='nav-item'><a href="#about">Sobre Mi</a></li>
+                <li className='nav-item'><a href="#projects">Proyectos</a></li>
+                <li className='nav-item'><a href="#contact">Contacto</a></li>
             </ul>
         </div>
     </nav>

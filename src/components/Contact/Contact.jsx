@@ -2,11 +2,11 @@ import React from 'react'
 import './Contact.css'
 const Contact = () => {
     return (
-        <div>
+        <div id='contact'>
             <h3>Contacto</h3>
             <div className='contact-form-ctn'>
                 <div>
-                    <p className='contact-form-text'>Gracias por visitar mi pagina,si te gustaria contactarme para colaborar en algun proyecto , charlar o saber mas sobre mi , aqui te dejo mi contacto</p>
+                    <p className='contact-form-text'>Gracias por visitar mi pagina,si te gustaria contactarme para colaborar en algun proyecto o presentarme alguna propuesta aqui te dejo mi contacto : </p>
                 </div>
                 <form className='form-ctn'>
                     <input type="text" placeholder='Nombre' />
