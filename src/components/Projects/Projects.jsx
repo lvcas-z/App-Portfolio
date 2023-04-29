@@ -1,10 +1,10 @@
 import React from 'react'
 import ProjectItem from './ProjectItem/ProjectItem'
-const Projects = () => {
+const Projects = ({data}) => {
     return (
         <div id='projects'>
             <h3>Proyectos</h3>
-                <ProjectItem/>
+            <ProjectItem projects={data.projects}/>
         </div>
     )
 }
