@@ -1,6 +1,7 @@
 import React from 'react'
 import './ProjectItem.css'
-const ProjectItem = ({projects}) => {
+import projects from '../../../data/data'
+const ProjectItem = () => {
     return (
         <div className='projects-ctn'>
             {
@@ -10,10 +11,10 @@ const ProjectItem = ({projects}) => {
                             <div className='project-img-ctn'>
                                 <img src={project.img}/>
                             </div>
-                            <h4>{project.nombre}</h4>
+                            <h4>{project.name}</h4>
                             <div className='project-btn-ctn'>
-                                <button>Repositorio</button>
-                                <button>Sitio Web</button>
+                                <a href={project.repositorio}>Repositorio</a>
+                                <a href={project.url}>Sitio Web</a>
                             </div>
                         </div>)})}
         </div>

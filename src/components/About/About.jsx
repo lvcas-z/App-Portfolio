@@ -2,7 +2,7 @@ import React from 'react'
 import codingImg from '../../assets/coding.png'
 import {FaReact,FaJsSquare,FaCss3Alt,FaHtml5,FaSass,FaGitAlt,FaBootstrap} from 'react-icons/fa'
 import './About.css'
-const About = ({data}) => {
+const About = () => {
 return (
     <div className='about-ctn' id='about'>
         <h3>Sobre mi</h3>
