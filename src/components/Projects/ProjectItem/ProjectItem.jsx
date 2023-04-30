@@ -9,7 +9,7 @@ const ProjectItem = () => {
                     return (
                         <div key={project.id} className='project-ctn'>
                             <div className='project-img-ctn'>
-                                <img src={project.img}/>
+                                <img className='project-img' src={project.img}/>
                             </div>
                             <h4>{project.name}</h4>
                             <div className='project-btn-ctn'>

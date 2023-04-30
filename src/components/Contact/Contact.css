@@ -24,3 +24,18 @@ input{
     border-radius: 10px;
     background: inherit;
 }
+@media (max-width:768px){
+    .contact-form-ctn{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-form-text{
+        width: auto;
+    }
+    .form-ctn{
+        justify-content: center;
+    }
+    input{
+        width: auto;
+    }
+}
