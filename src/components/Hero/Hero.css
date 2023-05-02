@@ -2,9 +2,9 @@
     text-align: center;
     height: 90vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 10px;
 }
 .hero-title{
     font-size: 3rem;
@@ -12,4 +12,31 @@
 }
 .hero-subtitle{
     font-size: 1.5rem;
+}
+.skills-ctn{
+    padding: 2rem;
+}
+.skills-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.skill-item{
+    padding: 3rem;
+    border-radius: 30px;
+    text-align: center;
+}
+.skill-item svg{
+    font-size: 5rem;
+}
+@media (max-width:768px){
+    .hero-ctn{
+        height: auto;
+        padding: 2rem;
+    }
+    .skills-items{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }

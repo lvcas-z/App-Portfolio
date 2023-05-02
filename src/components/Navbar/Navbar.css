@@ -14,9 +14,6 @@ nav{
     font-size: 1rem;
     cursor: pointer;
 }
-.nav-item a:hover{
-    color: #14FFEC;
-}
 .close{
     display: none;
 }

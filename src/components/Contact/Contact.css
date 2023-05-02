@@ -1,3 +1,7 @@
+#contact{
+    padding: 10rem;
+    /* height: 75vh; */
+}
 .contact-form-ctn{
     text-align: justify;
     display: flex;
@@ -20,11 +24,15 @@
 input{
     width: 25rem;
     height: 3rem;
-    border: 1px solid #14FFEC;
     border-radius: 10px;
-    background: inherit;
+    background: #ffffff11;
+    border: 0;
+    padding-left: 10px;
 }
 @media (max-width:768px){
+    #contact{
+        height: auto;
+    }
     .contact-form-ctn{
         display: flex;
         flex-direction: column;

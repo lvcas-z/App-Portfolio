@@ -10,10 +10,12 @@
   text-decoration: none;
 }
 body{
-  background-color: #0f2027;
+  background-color: #041124;
 }
 h3{
   text-align: center;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 3rem;
+  padding: 2rem 0;
+  color: #005aff;
 }

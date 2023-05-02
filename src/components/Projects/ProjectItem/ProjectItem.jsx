@@ -1,5 +1,7 @@
 import React from 'react'
 import './ProjectItem.css'
+import {BiHomeAlt2} from 'react-icons/bi'
+import{FiGithub} from 'react-icons/fi'
 import projects from '../../../data/data'
 const ProjectItem = () => {
     return (
@@ -11,10 +13,11 @@ const ProjectItem = () => {
                             <div className='project-img-ctn'>
                                 <img className='project-img' src={project.img}/>
                             </div>
-                            <h4>{project.name}</h4>
+                            <h4 className='project-title'>{project.nombre}</h4>
+                            <p className='project-text'>Tecnologias : {project.tecnologias}</p>
                             <div className='project-btn-ctn'>
-                                <a href={project.repositorio}>Repositorio</a>
-                                <a href={project.url}>Sitio Web</a>
+                                <a href={project.repositorio}><FiGithub/> Github</a>
+                                <a href={project.url}><BiHomeAlt2/>Deploy</a>
                             </div>
                         </div>)})}
         </div>
