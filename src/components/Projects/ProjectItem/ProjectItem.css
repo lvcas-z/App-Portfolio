@@ -43,3 +43,8 @@
     border-radius: 10px;
     border: 1px solid #005aff;
 }
+@media (max-width:768px) {
+    .project-img{
+        width: 15rem;
+    }
+}
