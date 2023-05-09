@@ -10,19 +10,32 @@
     display: flex;
     flex-direction: column;
     border-radius: 10px;
+    transition: all 0.4s ease-out
 }
-/* .project-ctn:hover{
+.project-ctn:hover{
+    cursor: pointer;
     border: 1px solid #005aff;
-} */
+    box-shadow: 0 0 5px 1px #005aff;
+}
+.project-ctn:hover .project-title {
+    text-decoration: underline #005aff;
+}
+.project-ctn:hover .project-text {
+    color: #F1F6F8;
+}
 .project-title{
     padding: 1rem;
     font-size: 1.5rem;
     font-weight: 500;
+    transition: all 0.4s ease-in;
 }
 .project-text{
     padding-left: 1rem;
+    color: #f1f6f896;
 }
 .project-img-ctn{
+    display: flex;
+    justify-content: center;
     padding: 1rem;
 }
 .project-img{

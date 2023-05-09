@@ -4,6 +4,11 @@ nav{
     align-items: center;
     padding: 2rem;
 }
+.logo{
+    background-color: #005aff;
+    padding: 1rem;
+    border-radius: 5px;
+}
 .nav-links{
     display: flex;
     flex-direction: row;
@@ -14,6 +19,9 @@ nav{
     font-size: 1rem;
     cursor: pointer;
 }
+.nav-item a:hover{
+    color: #005aff;
+}
 .close{
     display: none;
 }
@@ -21,6 +29,9 @@ nav{
 @media (max-width: 768px) {
     .open-menu,.close-menu{
         display: block;
+    }
+    .open-menu svg,.close-menu svg{
+        font-size: 2.5rem;
     }
     .navbar{
         opacity: 0;
@@ -43,6 +54,7 @@ nav{
         opacity: 1;
         visibility: visible;
         transition: opacity 0.5s ease, visibility 0.5s ease;
+        z-index: 1;
     }
     .nav-links{
         flex-direction: column;

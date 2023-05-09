@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+import {MdMenu,MdClose} from 'react-icons/md'
 import './Navbar.css'
 const Navbar = () => {
 
@@ -9,13 +10,13 @@ const Navbar = () => {
     return (
     <nav>
         <div className='logo-ctn'>
-            <span className='logo'>LZ</span>
+            <a href='.' className='logo'>Lucas Zelaya</a>
         </div>
-        <span onClick={toggleVisibility} className='open-menu'>==</span>
+        <div onClick={toggleVisibility} className='open-menu'><MdMenu fill='white'/></div>
         <div className={`navbar ${isOpen ? "open" : ""}`}>
-            <span onClick={toggleVisibility} className='close-menu'>X</span>
+            <div onClick={toggleVisibility} className='close-menu'><MdClose fill='white'/></div>
             <ul className='nav-links'>
-                <li className='nav-item'><a href="#">Inicio</a></li>
+                <li className='nav-item'><a href=".">Inicio</a></li>
                 <li className='nav-item'><a href="#about">Sobre Mi</a></li>
                 <li className='nav-item'><a href="#projects">Proyectos</a></li>
                 <li className='nav-item'><a href="#contact">Contacto</a></li>

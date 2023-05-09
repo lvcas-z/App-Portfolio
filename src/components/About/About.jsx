@@ -1,6 +1,7 @@
 import React from 'react'
-import codingImg from '../../assets/coding.png'
-// import {FaReact,FaJsSquare,FaCss3Alt,FaHtml5,FaSass,FaGitAlt,FaBootstrap} from 'react-icons/fa'
+import codingImg from '../../assets/coding.svg'
+import cv from '../../assets/ZelayaLucas.pdf'
+
 import './About.css'
 const About = () => {
 return (
@@ -8,45 +9,16 @@ return (
         <h3>Sobre mi</h3>
         <div className='about-me-ctn'>
             <div className='about-img-ctn'>
-                <img src={codingImg} alt=""/>
+                <img src={codingImg} alt="codeando"/>
             </div>
             <div className='about-info-ctn'>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut ullam atque corrupti hic soluta nihil suscipit. Aperiam optio esse provident at labore, sit suscipit veniam modi, molestias reiciendis expedita rerum.</p>
+                <p>Me encantan los desafios y aportar valor a distintos proyectos. Disfruto de aprender nuevas tecnologias y herramientas para poder crecer dia a dia. Actualmente me encuentro aprendiendo Angular y Python</p>
+                <div className='about-btn-ctn'>
+                    <a href="#contact">Contacto</a>
+                    <a href={cv}>Ver CV</a>
+                </div>
             </div>
         </div>
-        {/* <div className='skills-ctn'>
-            <h3>Skills</h3>
-            <ul className='skills-items'>
-                <div className='skill-item'>
-                    <FaReact color="aqua"/>
-                    <li>React</li>
-                </div>
-                <div className='skill-item'>
-                    <FaJsSquare color="yellow"/>
-                    <li>Javascript</li>
-                </div>
-                <div className='skill-item'>
-                        <FaCss3Alt color="blue"/>
-                    <li>CSS</li>
-                </div>
-                <div className='skill-item'>
-                    <FaHtml5 color="orange"/>
-                    <li>HTML</li>
-                </div>
-                <div className='skill-item'>
-                    <FaSass color="pink"/>
-                    <li>SASS</li>
-                </div>
-                <div className='skill-item'>
-                    <FaGitAlt color="orange"/>
-                    <li>Git</li>
-                </div>
-                <div className='skill-item'>
-                    <FaBootstrap color="purple"/>
-                    <li>Bootstrap</li>
-                </div>
-            </ul>
-        </div> */}
     </div>
 )
 }

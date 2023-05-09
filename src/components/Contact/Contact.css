@@ -9,10 +9,30 @@
     justify-content: space-evenly;
     padding: 1rem;
 }
-.contact-form-text{
+.contact-links-ctn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1.5rem;
+}
+.contact-links-text{
     display: flex;
     align-items: center;
     width: 20rem;
+}
+.contact-link{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    background: #22252bbd;
+    box-shadow: 0 0 5px 1px #005aff;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 2rem;
+}
+.contact-link:hover, input:hover{
+    box-shadow: 0 0 10px 1px #005aff;
 }
 .form-ctn{
     display: flex;
@@ -29,6 +49,9 @@ input{
     border: 0;
     padding-left: 10px;
 }
+.send-btn{
+    background-color: #005aff;
+}
 @media (max-width:1024px){
     #contact{
         height: auto;
@@ -38,7 +61,7 @@ input{
         display: flex;
         flex-direction: column;
     }
-    .contact-form-text{
+    .contact-links-text{
         width: auto;
     }
     .form-ctn{
