@@ -10,7 +10,7 @@ const ProjectItem = () => {
             {
                 projects.map(project=>{
                     return (
-                        <div className='project-ctn'>
+                        <div key={project.id} className='project-ctn'>
                             <div className='project-img-ctn'>
                                 <img className='project-img' src={project.img}/>
                             </div>

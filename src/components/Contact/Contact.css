@@ -1,9 +1,7 @@
 #contact{
     padding: 10rem;
-    /* height: 75vh; */
 }
-.contact-form-ctn{
-    text-align: justify;
+.contact-ctn{
     display: flex;
     gap: 1rem;
     justify-content: space-evenly;
@@ -11,63 +9,43 @@
 }
 .contact-links-ctn{
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
     gap: 1.5rem;
-}
-.contact-links-text{
-    display: flex;
-    align-items: center;
-    width: 20rem;
 }
 .contact-link{
     cursor: pointer;
     display: flex;
     justify-content: center;
     padding: 0.5rem;
-    background: #22252bbd;
+    width: 20rem;
+    height: 5rem;
     box-shadow: 0 0 5px 1px #005aff;
     border-radius: 15px;
-    text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
+    align-items: center;
 }
-.contact-link:hover, input:hover{
+.linkedin-link{
+    background-color: dodgerblue;
+}
+.github-link{
+    background-color: #22252bbd;
+}
+.email-link{
+    background-color: darkred;
+}
+.contact-link:hover{
     box-shadow: 0 0 10px 1px #005aff;
-}
-.form-ctn{
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    gap: 2rem;
-    justify-content: right;
-}
-input{
-    width: 25rem;
-    height: 3rem;
-    border-radius: 10px;
-    background: #ffffff11;
-    border: 0;
-    padding-left: 10px;
-}
-.send-btn{
-    background-color: #005aff;
 }
 @media (max-width:1024px){
     #contact{
         height: auto;
         padding: initial;
     }
-    .contact-form-ctn{
+    .contact-links-ctn{
         display: flex;
         flex-direction: column;
     }
-    .contact-links-text{
-        width: auto;
-    }
-    .form-ctn{
-        justify-content: center;
-    }
-    input{
-        width: auto;
+    .contact-link{
+        width: 16rem;
     }
 }

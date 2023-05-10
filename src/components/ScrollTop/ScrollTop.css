@@ -1,0 +1,18 @@
+.scroll-to-top-button {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    opacity: 0.5;
+    transition: opacity 0.4s ease-in-out;
+    &.visible {
+        display: block;
+        opacity: 1;
+        cursor: pointer;
+    }
+}
+.icon{
+    font-size: 3rem;
+    fill: #005aff;
+}
