@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import {MdMenu,MdClose} from 'react-icons/md'
 import './Navbar.css'
+import logo from '../../assets/logo.png'
 const Navbar = () => {
 
     const [isOpen, setIsOpen] = useState(false)
@@ -10,7 +11,7 @@ const Navbar = () => {
     return (
     <nav>
         <div className='logo-ctn'>
-            <a href='.'><img className='logo' src="src/assets/logo.png" alt="logo"/></a>
+            <a href='.'><img className='logo' src={logo} alt="logo"/></a>
         </div>
         <div onClick={toggleVisibility} className='open-menu'><MdMenu fill='white'/></div>
         <div className={`navbar ${isOpen ? "open" : ""}`}>

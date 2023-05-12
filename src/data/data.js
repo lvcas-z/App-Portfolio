@@ -4,7 +4,7 @@ const projects=[
             "nombre":"Digital Booking",
             "url":"http://fvb-grupo9-front.s3-website.us-east-2.amazonaws.com/",
             "repositorio":"https://github.com/lvcas-z/App-Portfolio",
-            "img":"/src/assets/digitalBooking.png",
+            "img":"../src/assets/digitalBooking.png",
             "tecnologias":"React, CSS, Java, AWS, MySql"
         },
         {
@@ -12,7 +12,7 @@ const projects=[
             "nombre":"Gif Finder",
             "url":"https://lvcas-z.github.io/App-GifFinder/",
             "repositorio":"https://github.com/lvcas-z/App-GifFinder",
-            "img":"/src/assets/gifFinder.png",
+            "img":"../../src/assets/gifFinder.png",
             "tecnologias":"React, CSS"
         },
         {
@@ -20,7 +20,7 @@ const projects=[
             "nombre":"Football Players",
             "url":"https://lvcas-z.github.io/App-FootballPlayers/",
             "repositorio":"https://github.com/lvcas-z/App-FootballPlayers",
-            "img":"/src/assets/footballPlayers.png",
+            "img":"../../src/assets/footballPlayers.png",
             "tecnologias":"Javascript, SASS, HTML"
         }
     ]
