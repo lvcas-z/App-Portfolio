@@ -3,7 +3,7 @@ const projects=[
             "id":1,
             "nombre":"Digital Booking",
             "url":"http://fvb-grupo9-front.s3-website.us-east-2.amazonaws.com/",
-            "repositorio":"",
+            "repositorio":"https://github.com/lvcas-z/App-Portfolio",
             "img":"/src/assets/digitalBooking.png",
             "tecnologias":"React, CSS, Java, AWS, MySql"
         },
