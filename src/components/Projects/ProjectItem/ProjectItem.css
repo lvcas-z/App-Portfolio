@@ -45,7 +45,8 @@
 .project-btn-ctn{
     display: flex;
     justify-content: space-around;
-    padding: 2rem;
+    padding: 1.5rem;
+    gap: 10px;
 }
 .project-ctn a{
     background-color: black;

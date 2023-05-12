@@ -2,12 +2,10 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
+    padding: 1rem;
 }
 .logo{
-    background-color: #005aff;
-    padding: 1rem;
-    border-radius: 5px;
+    width: 8rem;
 }
 .nav-links{
     display: flex;
