@@ -57,6 +57,12 @@
     border-radius: 10px;
     border: 1px solid #005aff;
 }
+.disabled-link {
+    pointer-events: none;
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
 @media (max-width:768px) {
     .project-img{
         width: 15rem;

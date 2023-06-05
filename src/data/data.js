@@ -5,7 +5,7 @@ const projects=[
         {
             "id":1,
             "nombre":"Digital Booking",
-            "url":"http://fvb-grupo9-front.s3-website.us-east-2.amazonaws.com/",
+            "url":"",
             "repositorio":"https://github.com/lvcas-z/App-Portfolio",
             "img":digitalBooking,
             "tecnologias":"React, CSS, Java, AWS, MySql"
@@ -25,6 +25,30 @@ const projects=[
             "repositorio":"https://github.com/lvcas-z/App-FootballPlayers",
             "img":footballPlayers,
             "tecnologias":"Javascript, SASS, HTML"
+        },
+        {
+            "id":4,
+            "nombre":"Próximamente...",
+            "url":"",
+            "repositorio":"",
+            "img":"",
+            "tecnologias":"Próximamente"
+        },
+        {
+            "id":5,
+            "nombre":"Próximamente...",
+            "url":"",
+            "repositorio":"",
+            "img":"",
+            "tecnologias":"Próximamente"
+        },
+        {
+            "id":6,
+            "nombre":"Próximamente...",
+            "url":"",
+            "repositorio":"",
+            "img":"",
+            "tecnologias":"Próximamente"
         }
     ]
 
