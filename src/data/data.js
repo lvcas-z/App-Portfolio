@@ -8,7 +8,7 @@ const projects = [
         "id": 1,
         "nombre": "Digital Booking",
         "url": "",
-        "repositorio": "https://github.com/lvcas-z/App-Portfolio",
+        "repositorio": "https://github.com/lvcas-z/Digital-Booking",
         "img": digitalBooking,
         "tecnologias": "React, CSS, Java, AWS, MySQL"
     },
