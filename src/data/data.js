@@ -34,22 +34,6 @@ const projects = [
         "repositorio": "https://github.com/lvcas-z/App-FootballPlayers",
         "img": footballPlayers,
         "tecnologias": "Javascript, SASS, HTML"
-    },
-    {
-        "id": 5,
-        "nombre": "Próximamente...",
-        "url": "",
-        "repositorio": "",
-        "img": "",
-        "tecnologias": "Próximamente"
-    },
-    {
-        "id": 6,
-        "nombre": "Próximamente...",
-        "url": "",
-        "repositorio": "",
-        "img": "",
-        "tecnologias": "Próximamente"
     }
 ]
 

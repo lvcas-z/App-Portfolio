@@ -12,7 +12,7 @@ return (
                 <img src={codingImg} alt="codeando"/>
             </div>
             <div className='about-info-ctn'>
-                <p>Me encantan los desafios y aportar valor a distintos proyectos. Disfruto de aprender nuevas tecnologias y herramientas para poder crecer dia a dia. Actualmente me encuentro aprendiendo Angular y Python</p>
+                <p>Me encantan los desafios y aportar valor a distintos proyectos. Disfruto de aprender nuevas tecnologias y herramientas para poder crecer dia a dia. Actualmente me encuentro aprendiendo React Native y mejorando mi nivel de inglés</p>
                 <div className='about-btn-ctn'>
                     <a href="#contact">Contacto</a>
                     <a href={cv}>Ver CV</a>

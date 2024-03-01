@@ -8,6 +8,7 @@
   font-weight: 400;
   list-style: none;
   text-decoration: none;
+  scroll-behavior: smooth;
 }
 body{
   background: rgb(5,5,29);
